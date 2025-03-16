@@ -6,7 +6,10 @@ function noSearchDefaultPageRender() {
   app.innerHTML = `
     <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh;">
       <div class="content-container">
-        <h1>Fur Bang</h1>
+        <h1 style="display: flex; align-items: center; justify-content: center; gap: 8px;">
+          <img src="/logo.svg" alt="Fur Bang Logo" style="width: 32px; height: 32px;" />
+          !Bang
+        </h1>
         <p>"DuckDuckGo bangs too slow? Use this URL as a custom search engine to speed them up! Works with all DuckDuckGo bangs! 🐺💨. Enables <a href="https://duckduckgo.com/bang.html" target="_blank">all of DuckDuckGo's bangs.</a></p>
         <div class="url-container"> 
           <input 
