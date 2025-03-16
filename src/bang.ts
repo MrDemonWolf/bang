@@ -8,7 +8,7 @@ export const bangs = [
     r: 0,
     s: "MrDemonWolf",
     sc: "mdw",
-    t: "t3",
+    t: "mdw",
     u: "https://www.mrdemonwolf.com/?s={{{s}}}",
   },
   {
