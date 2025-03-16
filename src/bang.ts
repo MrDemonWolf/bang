@@ -1,6 +1,16 @@
 // This file was (mostly) ripped from https://duckduckgo.com/bang.js
 
 export const bangs = [
+  // Added MrDemonWolf, Inc
+  {
+    c: "Tech",
+    d: "www.mrdemonwolf.com",
+    r: 0,
+    s: "MrDemonWolf",
+    sc: "mdw",
+    t: "t3",
+    u: "https://www.mrdemonwolf.com/?s={{{s}}}",
+  },
   {
     c: "AI",
     d: "www.t3.chat",
